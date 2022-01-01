@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+}
+
+body{
+     font-family: 'Poppins', sans-serif;
+     min-height: 100vh;
+     margin: 0;
+}
+
+.container{
+margin-top: 100px;
+     
+}
+.container .card{
+margin: auto;
+     
+}
+.card-header{
+padding: 20px 30px;
+text-align: center;
+     
+}
+.card-header h2{
+margin: 0;
+     
+}
+.form-group{
+     position: relative;
+     margin-bottom: 20px;
+     padding-bottom: 10px;
+
+}
+.form-group i{
+     position: absolute;
+     top: 50%;
+     right: 10px;
+     visibility: hidden;
+}
+.form-group small{
+     position: absolute;
+     bottom: -20px;
+     left: 10px;
+     visibility: hidden;
+}
+
+.form-group.success input{
+     border: 2px solid green !important;
+}
+.form-group.errors input{
+     border: 2px solid rgb(238, 0, 0);
+}
+.form-group.success i.fa-check-circle{
+     color: rgb(115, 190, 2);
+     visibility: visible;
+}
+.form-group.errors i.fa-exclamation-circle{
+     color: rgb(175, 0, 0);
+     visibility: visible;
+}
+.form-group.errors small{
+     color: rgb(199, 0, 0) !important;
+     visibility: visible;
+
+}
+
+button{
+     padding:10px 30px;
+     display: block;
+     width: 100%;
+     border: none;
+     text-align: center;
+     background: rgb(226, 77, 226);
+     columns: #fff;
+}
+button:hover{
+     
+     background: rgb(195, 22, 195);
+     columns: rgba(0, 0, 0, 0);
+}
+
+
+
+
+
+
